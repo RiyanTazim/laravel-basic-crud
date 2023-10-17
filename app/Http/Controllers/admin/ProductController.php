@@ -30,7 +30,8 @@ class ProductController extends Controller
         $product->offer = $request->offer;
         $product->image = $this->imageProcess($request);
         $product->save();
-        return back()->with('notification' , 'product added successfully');
+        // return back()->with('notification' , 'product added successfully');
+        return redirect()->route('product.manage')->with('notification', 'Product added successfully');
     }
 
     public function index(){
