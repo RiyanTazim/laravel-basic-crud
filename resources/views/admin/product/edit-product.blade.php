@@ -1,5 +1,9 @@
 @extends('admin.master')
 
+@section('title')
+    Product Edit
+@endsection
+
 @section('content')
 <section>
     <h1 class="text-center py-3 bg-secondary text-light">Edit Product</h1>

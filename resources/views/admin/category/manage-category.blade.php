@@ -1,5 +1,9 @@
 @extends('admin.master')
 
+@section('title')
+    Category List
+@endsection
+
 @section('content')
 <section class="w-100">
     <h1 class="text-center py-3 m-0 bg-secondary text-light w-100" >Manage Categories</h1>

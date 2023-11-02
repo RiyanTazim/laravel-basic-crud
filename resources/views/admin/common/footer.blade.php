@@ -1,7 +1,7 @@
-<footer class="py-4 bg-light mt-auto">
-    <div class="container-fluid px-4">
+<footer class="py-4 mt-auto" style="background: #7ccbb1">
+    <div class="container-fluid px-4" >
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+            <div class="text-muted">Copyright &copy; Reserved and Developed by Riyan Tazim</div>
             <div>
                 <a href="#">Privacy Policy</a>
                 &middot;
@@ -19,5 +19,8 @@
 <script src="{{asset('/')}}assets/admin/assets/demo/chart-bar-demo.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
 <script src="{{asset('/')}}assets/admin/js/datatables-simple-demo.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>
 </html>

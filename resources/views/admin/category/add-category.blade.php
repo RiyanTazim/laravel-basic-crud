@@ -1,5 +1,9 @@
 @extends('admin.master')
 
+@section('title')
+    Category Add
+@endsection
+
 @section('content')
     <h1 class="text-center py-3 bg-secondary text-light">Add New Category</h1>
     <h3 class="text-center text-success pt-4" id="success-msg" style="height: 60px">{{ Session()->get('notification') }}</h3>

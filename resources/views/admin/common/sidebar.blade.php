@@ -26,7 +26,7 @@
                     </div>
 
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                        data-bs-target="#collapseLayout" aria-expanded="false" aria-controls="collapseLayouts">
+                        data-bs-target="#collapseLayout" aria-expanded="false" aria-controls="collapseLayout">
                         <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                         Product
                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -38,6 +38,35 @@
                             <a class="nav-link" href="{{route('product.manage')}}">Manage Product</a>
                         </nav>
                     </div>
+                    
+                    {{-- <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#countryLayout" aria-expanded="false" aria-controls="countryLayout">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Country
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="countryLayout" aria-labelledby="headingOne"
+                        data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" href="{{route('product.add')}}">Add Country Address</a>
+                            <a class="nav-link" href="{{route('product.manage')}}">Manage Country Address</a>
+                        </nav>
+                    </div> --}}
+                    
+                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#mapLayout" aria-expanded="false" aria-controls="mapLayout">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        MAP Location
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="mapLayout" aria-labelledby="headingOne"
+                        data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" href="{{route('map.location')}}">Add Location</a>
+                            <a class="nav-link" href="{{route('map.manage')}}">Manage Location</a>
+                        </nav>
+                    </div>
+
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
                         data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                         <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
