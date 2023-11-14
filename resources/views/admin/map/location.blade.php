@@ -33,7 +33,7 @@
 
 
     <script type="text/javascript"
-    src="https://maps.google.com/maps/api/js?key=AIzaSyDBZYFFfyeW467TIU2Gry9RZWo3LUsZXjA&callback=initMap" ></script>
+    src="https://maps.google.com/maps/api/js?key=YourAPI&callback=initMap" ></script>
 
     </section>
 

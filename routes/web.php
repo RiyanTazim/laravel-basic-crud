@@ -45,10 +45,7 @@ Route::middleware([
     Route::post('/category/update/{id}', [CategoryController::class, 'update'])->name('category.update');
     Route::get('/category/delete/{id}', [CategoryController::class, 'delete'])->name('category.delete');
 
-    ///// Dependent Dropdown //////////
-    Route::get('dropdown' , [DropdownController::class, 'index'])->name('dropdowm');
-    Route::get('api/fetch-state' , [DropdownController::class, 'state'])->name('state');
-    Route::get('api/fetch-city' , [DropdownController::class, 'city'])->name('city');
+
 
     ///// MAP Location //////////
     Route::get('map/location' , [MAPController::class, 'index'])->name('map.location');
@@ -59,7 +56,7 @@ Route::middleware([
     Route::get('map/delete/{id}' , [MAPController::class, 'delete'])->name('map.delete');
 
 
-    Route::get('location' , [MAPController::class, 'location'])->name('location');
+    // Route::get('location' , [MAPController::class, 'location'])->name('location');
 
 
 });
